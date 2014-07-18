@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>pngquant</id>
+    <title>pngquant</title>
+    <version>2.2.0</version>
+    <authors>pornel</authors>
+    <owners>kyann</owners>
+    <summary>pngquant is a command-line utility and a library for lossy compression of PNG images.</summary>
+    <description>The conversion reduces file sizes significantly (often as much as 70%) and preserves full alpha transparency. Generated images are compatible with all modern web browsers, and have better fallback in IE6 than 24-bit PNGs.</description>
+    <projectUrl>http://pngquant.org/</projectUrl>
+    <tags>pngquant png optipng</tags>
+    <copyright></copyright>
+    <licenseUrl>https://raw.githubusercontent.com/pornel/pngquant/master/COPYRIGHT</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes></releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+    <!--<file src="content\**" target="content" />-->
+  </files>
+</package>
